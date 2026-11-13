@@ -1,0 +1,59 @@
+{
+  "throughSeason": "2025-26",
+  "checked": "2026-11-13",
+  "note": "All-time program records through the end of the 2025-26 season. The nightly update adds 2026-27 games on top of these.",
+  "schools": [
+    {
+      "name": "University of North Carolina",
+      "feedTeam": "North Carolina",
+      "firstSeason": "1910-11",
+      "conference": "ACC",
+      "wins": 2419,
+      "losses": 883,
+      "ncaaApps": 55,
+      "finalFours": 21,
+      "titles": 6,
+      "notes": "Titles: 1957, 1982, 1993, 2005, 2009, 2017",
+      "source": "UNC game notes vs. Georgia, Nov 2026 (2,422-883 after a 3-0 start)"
+    },
+    {
+      "name": "Duke University",
+      "feedTeam": "Duke",
+      "firstSeason": "1905-06",
+      "conference": "ACC",
+      "wins": 2370,
+      "losses": 936,
+      "ncaaApps": 48,
+      "finalFours": 18,
+      "titles": 5,
+      "notes": "Titles: 1991, 1992, 2001, 2010, 2015",
+      "source": "Duke 2026-27 game notes (2,370-936); matches Sports-Reference"
+    },
+    {
+      "name": "NC State University",
+      "feedTeam": "NC State",
+      "firstSeason": "1912-13",
+      "conference": "ACC",
+      "wins": 1863,
+      "losses": 1173,
+      "ncaaApps": 30,
+      "finalFours": 4,
+      "titles": 2,
+      "notes": "Titles: 1974, 1983",
+      "source": "Sports-Reference (NC State game notes do not list an all-time record)"
+    },
+    {
+      "name": "Wake Forest University",
+      "feedTeam": "Wake Forest",
+      "firstSeason": "1905-06",
+      "conference": "ACC",
+      "wins": 1663,
+      "losses": 1340,
+      "ncaaApps": 23,
+      "finalFours": 1,
+      "titles": 0,
+      "notes": "Final Four: 1962",
+      "source": "Wake Forest game notes vs. Vanderbilt, Nov 5 2026 (1,664-1,340 after a 1-0 start). Sports-Reference shows 1,660-1,336."
+    }
+  ]
+}

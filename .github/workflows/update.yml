@@ -1,0 +1,42 @@
+name: Nightly stats update
+
+on:
+  schedule:
+    # 10:00 UTC = 5 or 6 AM Eastern, after the night's games are final
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    inputs:
+      validate:
+        description: 'Check the feed against last season official records instead of updating'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate feed
+        if: ${{ inputs.validate }}
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+        run: python scripts/update.py --validate
+      - name: Update stats
+        if: ${{ !inputs.validate }}
+        env:
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+        run: python scripts/update.py
+      - name: Save changes
+        if: ${{ !inputs.validate }}
+        run: |
+          git config user.name "bns-stats-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/stats.json
+          git diff --cached --quiet || git commit -m "Stats update $(date -u +%F)"
+          git push
