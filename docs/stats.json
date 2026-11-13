@@ -1,0 +1,66 @@
+{
+  "updated": "2026-11-13",
+  "season": "2026-27",
+  "schools": [
+    {
+      "name": "University of North Carolina",
+      "firstSeason": "1910-11",
+      "conference": "ACC",
+      "wins": 2422,
+      "losses": 883,
+      "games": 3305,
+      "winPct": 0.733,
+      "seasonWins": 3,
+      "seasonLosses": 0,
+      "ncaaApps": 55,
+      "finalFours": 21,
+      "titles": 6,
+      "notes": "Titles: 1957, 1982, 1993, 2005, 2009, 2017"
+    },
+    {
+      "name": "Duke University",
+      "firstSeason": "1905-06",
+      "conference": "ACC",
+      "wins": 2372,
+      "losses": 937,
+      "games": 3309,
+      "winPct": 0.717,
+      "seasonWins": 2,
+      "seasonLosses": 1,
+      "ncaaApps": 48,
+      "finalFours": 18,
+      "titles": 5,
+      "notes": "Titles: 1991, 1992, 2001, 2010, 2015"
+    },
+    {
+      "name": "NC State University",
+      "firstSeason": "1912-13",
+      "conference": "ACC",
+      "wins": 1866,
+      "losses": 1173,
+      "games": 3039,
+      "winPct": 0.614,
+      "seasonWins": 3,
+      "seasonLosses": 0,
+      "ncaaApps": 30,
+      "finalFours": 4,
+      "titles": 2,
+      "notes": "Titles: 1974, 1983"
+    },
+    {
+      "name": "Wake Forest University",
+      "firstSeason": "1905-06",
+      "conference": "ACC",
+      "wins": 1665,
+      "losses": 1341,
+      "games": 3006,
+      "winPct": 0.554,
+      "seasonWins": 2,
+      "seasonLosses": 1,
+      "ncaaApps": 23,
+      "finalFours": 1,
+      "titles": 0,
+      "notes": "Final Four: 1962"
+    }
+  ]
+}
