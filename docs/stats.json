@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "season": "2026-27",
   "schools": [
     {
@@ -51,11 +51,11 @@
       "name": "Wake Forest University",
       "firstSeason": "1905-06",
       "conference": "ACC",
-      "wins": 1665,
+      "wins": 1666,
       "losses": 1341,
-      "games": 3006,
+      "games": 3007,
       "winPct": 0.554,
-      "seasonWins": 2,
+      "seasonWins": 3,
       "seasonLosses": 1,
       "ncaaApps": 23,
       "finalFours": 1,
