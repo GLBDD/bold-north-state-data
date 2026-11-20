@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "season": "2026-27",
   "schools": [
     {
@@ -36,11 +36,11 @@
       "name": "NC State University",
       "firstSeason": "1912-13",
       "conference": "ACC",
-      "wins": 1867,
+      "wins": 1868,
       "losses": 1173,
-      "games": 3040,
+      "games": 3041,
       "winPct": 0.614,
-      "seasonWins": 4,
+      "seasonWins": 5,
       "seasonLosses": 0,
       "ncaaApps": 30,
       "finalFours": 4,
