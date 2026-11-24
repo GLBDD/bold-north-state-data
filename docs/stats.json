@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "season": "2026-27",
   "schools": [
     {
       "name": "University of North Carolina",
       "firstSeason": "1910-11",
       "conference": "ACC",
-      "wins": 2423,
+      "wins": 2424,
       "losses": 884,
-      "games": 3307,
+      "games": 3308,
       "winPct": 0.733,
-      "seasonWins": 4,
+      "seasonWins": 5,
       "seasonLosses": 1,
       "ncaaApps": 55,
       "finalFours": 21,
